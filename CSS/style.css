@@ -1,0 +1,283 @@
+/* fonts */
+@font-face {
+  font-family: Muli;
+  src: url(../Fonts/Muli.ttf);
+}
+@font-face {
+  font-family: Muli ExtraBold;
+  src: url(../Fonts/Muli-Bold.ttf);
+}
+@font-face {
+  font-family: Muli ExtraBoldItalic;
+  src: url(../Fonts/Muli-BoldItalic.ttf);
+}
+@font-face {
+  font-family: MuliBold;
+  src: url(../Fonts/Muli-SemiBold.ttf);
+}
+@font-face {
+  font-family: FontAwesome;
+  src: url(../Fonts/Font\ Awesome\ 5\ Free-Regular-400.otf);
+}
+
+/* top header area */
+* {
+  font-family: Muli;
+}
+
+/* common css */
+a {
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+/* top bar styles */
+
+#top_header_area {
+  background: #0b4b8a;
+  padding-bottom: 6px;
+}
+#top_header_area ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: left;
+}
+#top_header_area ul.social {
+  padding: 0.2px;
+  text-align: right;
+}
+#top_header_area ul.social li a i {
+  background-color: #0b4b8a;
+  color: #cedbe8;
+  font-size: 14px;
+  transition: 0.5s;
+}
+#top_header_area ul.social li a:hover i {
+  color: tomato;
+}
+#top_header_area ul li {
+  display: inline-block;
+  color: #cedbe8;
+  font-size: 10px;
+}
+#top_header_area ul li i {
+  color: #01a3e3;
+  display: inline-block;
+}
+
+/* header area */
+.navbar-brand img {
+  float: left;
+  color: rgb(51, 51, 51);
+}
+.navbar-brand h4 {
+  color: rgb(51, 51, 51);
+  font-family: Muli ExtraBoldItalic;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 10px;
+}
+.navbar-brand p {
+  color: #989898;
+  font-family: Muli;
+  font-size: 8px;
+  line-height: 1.6px;
+}
+#navbarResponsive ul li a {
+  color: black;
+  font-family: Muli ExtraBold;
+  font-size: 10px;
+}
+
+/* slider style */
+#carouselExampleIndicators .slider_text {
+  position: absolute;
+  bottom: 50%;
+  top: 30%;
+  left: 9%;
+  z-index: 419;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#carouselExampleIndicators .slider_text1 {
+  position: absolute;
+  bottom: 50%;
+  top: 30%;
+  left: 9%;
+  z-index: 419;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+#carouselExampleIndicators .slider_text3 {
+  position: absolute;
+  bottom: 50%;
+  top: 30%;
+  left: 9%;
+  z-index: 419;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#carouselExampleIndicators .slider_text2 {
+  position: absolute;
+  bottom: 50%;
+  top: 60%;
+  left: 9%;
+  z-index: 419;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+/* About Intro style */
+.card-footer {
+  background-color: #0b4b8a;
+  color: white;
+  width: 100%;
+  font-family: MuliBold;
+  font-size: 14px;
+  text-align: center;
+}
+/* Do you need */
+#code {
+  background-color: #4175aa;
+  line-height: 20px;
+  color: #ffff;
+}
+.container h4 {
+  padding-top: 5px;
+  padding-bottom: 2px;
+  font-family: MuliBold;
+  font-size: 25px;
+  font-style: bold;
+}
+.container h6 {
+  padding-bottom: 2px;
+  padding-top: 1px;
+  font-family: Muli;
+  font-size: 12px;
+}
+.container h4,
+h6 {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.container #button {
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+
+/* Our mission styles */
+.bs-example {
+  margin: 20px;
+}
+.accordion .fa {
+  margin-right: 0.5rem;
+}
+#img1 {
+  top: 68px;
+}
+#img2 {
+  top: 228px;
+  right: 190px;
+}
+#img3 {
+  top: 64px;
+  right: 154px;
+}
+button:focus {
+  outline-color: black;
+}
+
+/* pricing table styles */
+
+.card-body .subtitle {
+  color: #82919f;
+  display: block;
+  font-size: 15px;
+  margin-top: 15px;
+  font-weight: 100;
+}
+/* Customer reviews */
+
+#client-testimonial-carousel {
+  min-height: 200px;
+}
+/* footer area */
+.mainfooter {
+  background-image: url(../IMAGES/footer1.png);
+  color: #ffff;
+  background-color: rgb(11, 75, 138);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  line-height: 20px;
+}
+
+.mainfooter h4 {
+  color: #ffff;
+}
+.mainfooter p {
+  color: #ffff;
+}
+.mainfooter p1 {
+  font-family: Muli;
+  font-size: 12px;
+}
+.footer-pad h4 {
+  font-family: Muli ExtraBold;
+  font-size: 15px;
+}
+.footer-pad ul li a {
+  color: #ffff;
+  font-family: Muli;
+  font-size: 12px;
+}
+.footer-pad p2 {
+  font-family: Muli;
+  font-size: 12px;
+  margin-left: 5px;
+  text-align: right;
+}
+.footer-pad p3 {
+  font-family: Muli;
+  font-size: 15px;
+  font-style: bold;
+  text-align: right;
+  margin-left: 27px;
+}
+.footer-pad ul li i {
+  font-size: 30px;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.footer-pad p4 {
+  text-align: right;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  font-family: Muli;
+  font-size: 12px;
+}
+.footer-pad p5 {
+  text-align: right;
+  margin-left: 48px;
+  font-family: Muli;
+  font-size: 12px;
+}
+.footer-pad p6 {
+  text-align: right;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  font-family: Muli;
+  font-size: 12px;
+}
+.footer-pad p7 {
+  text-align: right;
+  margin-left: 48px;
+  font-family: Muli;
+  font-size: 12px;
+}
